@@ -1,4 +1,4 @@
-package com.mae.mutualaidendowment;
+package com.mae;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
