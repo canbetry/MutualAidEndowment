@@ -1,18 +1,0 @@
-server:
-  port: 8080
-  servlet:    session:      timeout: 10
-  tomcat:    uri-encoding: UTF-8
-
-logging:
-  file: MAE_logs.log
-  path: D:/MAE/mylogs
-  
-  
-spring:  datasource:    url: 
-    username: root
-    password: root
-    driver-class-name:  com.mysql.jdbc.Driver
-    dbcp2:      max-idle: 10
-      max-wait-millis: 10000
-      min-idle: 5
-      initial-size: 5
